@@ -1,0 +1,14 @@
+.landing {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50px repeat(2, 1fr) 50px;
+  grid-template-rows: 50px 1fr 1fr;
+  gap: 1rem;
+  grid-template-areas:
+    "nav nav nav nav "
+    "aside main main as"
+    "aside main main as";
+}

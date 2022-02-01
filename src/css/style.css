@@ -1,5 +1,8 @@
 /* = CSS Import =*/
 @import url("/src/css/cssPages/landing.css");
+@import url("/src/css/cssPages/navigation.css");
+@import url("/src/css/cssPages/aside.css");
+@import url("/src/css/cssPages/asideTwo.css");
 
 /* = Root =*/
 :root {
@@ -74,5 +77,8 @@ p, span{
 }
 body {
   width: 100%;
+  height: 100vh; 
+  overflow: hidden; 
   font-family: var(--font-family-mon);
+  background: var(--clr-white); 
 }
