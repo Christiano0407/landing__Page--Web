@@ -1,0 +1,78 @@
+/* = CSS Import =*/
+@import url("/src/css/cssPages/landing.css");
+
+/* = Root =*/
+:root {
+  /*Typography Family*/
+  --font-family-osw: "Oswald", sans-serif;
+  --font-family-mon: "Montserrat", sans-serif;
+  /*Colors*/
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-opcBl: #333;
+  --ux-clr1: #2E0259; 
+  --ux-clr2: #481CA6; 
+  --ux-clr3: #0BD953; 
+  --ux-clr4: #17590C; 
+  --ux-clr5: #0D0D0D; 
+  /*Margin*/
+  --margin-top: 2rem;
+  --margin-bottom: 2rem; 
+  /*Font Sizes*/
+  --font-title: 2.4rem; 
+  --font-tall: 1.8rem; 
+  --font-medium: 1.5rem; 
+  --font-small: 1.2rem: 
+  --font-very-small: .8rem; 
+
+  /*Padding*/
+  --padding: 1rem;
+  
+  /*Letter Spacing*/
+  --letter-spacing: .1rem; 
+  /*Text*/
+  --text-transform: uppercase; 
+
+}
+/* = General Project =*/
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* = CSS Animation Responsive =*/
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p, span{
+    letter-spacing: .1rem;
+}
+body {
+  width: 100%;
+  font-family: var(--font-family-mon);
+}
