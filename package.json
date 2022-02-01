@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Christiano0407/landing__Page--Web/issues"
   },
-  "homepage": "https://github.com/Christiano0407/landing__Page--Web#readme"
+  "homepage": "https://github.com/Christiano0407/landing__Page--Web#readme",
+  "devDependencies": {
+    "video.js": "^7.17.0"
+  }
 }
