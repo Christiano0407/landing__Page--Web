@@ -1,0 +1,23 @@
+{
+  "name": "landing__page--web",
+  "version": "1.0.0",
+  "description": "Landing_Page_Project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/landing__Page--Web.git"
+  },
+  "keywords": [
+    "Javascrip",
+    "Landing_Page"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/landing__Page--Web/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/landing__Page--Web#readme"
+}
