@@ -1,2 +1,3 @@
-# landing__Page--Web
-Landing Page Web and Vanilla Javascript. 
+# landing Page Web
+
+Landing Page Web and Vanilla Javascript.
