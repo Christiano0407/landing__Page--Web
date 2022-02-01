@@ -80,5 +80,5 @@ body {
   height: 100vh; 
   overflow: hidden; 
   font-family: var(--font-family-mon);
-  background: var(--clr-white); 
+  background: #fff; 
 }

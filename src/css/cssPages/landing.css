@@ -4,11 +4,32 @@
   overflow: hidden;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 50px repeat(2, 1fr) 50px;
+  grid-template-columns: 70px repeat(2, 1fr) 70px;
   grid-template-rows: 50px 1fr 1fr;
   gap: 1rem;
   grid-template-areas:
     "nav nav nav nav "
     "aside main main as"
     "aside main main as";
+
+  /* background: rgba(46, 2, 89, 0.2); */
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) */
+  /* backdrop-filter: blur(4px); */
+  /* -webkit-backdrop-filter: blur(4px); */
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+
+  /* background: rgba(255, 255, 255, 0.5); */
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  /* backdrop-filter: blur(4px); */
+  /* -webkit-backdrop-filter: blur(4px); */
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
