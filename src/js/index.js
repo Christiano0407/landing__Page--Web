@@ -13,13 +13,25 @@ let tween = gsap.from(
   0.0
 );
 
+let tweenAs = gsap.from(
+  ".aside",
+  {
+    delay: 1,
+    opacity: 0,
+    duration: 1,
+    x: "-20",
+    ease: Expo.easeInOut,
+  },
+  0.0
+);
+
 // Swipper ===
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 2,
   spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+  /* pagination: { */
+  /*   el: ".swiper-pagination", */
+  /*   clickable: true, */
+  /* }, */
 });
 console.groupEnd();
