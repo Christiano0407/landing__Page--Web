@@ -21,7 +21,7 @@
   font-size: 1.2rem;
   font-weight: 700;
   filter: opacity(0.5);
-  color: var(--ux-clr1);
+  color: var(--ux-clr5);
 }
 .aside__text span:hover {
   color: #fff;
@@ -43,10 +43,10 @@
 }
 .social-list a {
   font-size: 2.5rem;
-  color: var(--ux-clr2);
+  color: var(--ux-clr5);
 }
 .social-list a:hover {
-  color: var(--ux-clr1);
+  color: var(--clr-white);
   transform: scale(1.3);
   cursor: pointer;
 }
@@ -62,5 +62,5 @@
 .text-two span {
   font-size: 1.2rem;
   font-weight: 700;
-  color: var(--ux-clr1);
+  color: var(--ux-clr5);
 }
