@@ -29,9 +29,9 @@ let tweenAs = gsap.from(
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 2,
   spaceBetween: 30,
-  /* pagination: { */
-  /*   el: ".swiper-pagination", */
-  /*   clickable: true, */
-  /* }, */
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 });
 console.groupEnd();
