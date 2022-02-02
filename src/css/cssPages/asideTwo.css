@@ -1,3 +1,29 @@
 .as {
   grid-area: as;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.as__social {
+  width: 100%;
+  height: 50%;
+  align-items: center;
+}
+.social__list {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.social__list a {
+  font-size: 1.2rem;
+  color: var(--clr-black);
+  filter: opacity(0.5);
+}
+.social__list a:hover {
+  opacity: 1;
 }
