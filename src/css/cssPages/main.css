@@ -77,4 +77,93 @@
   grid-row: 2 / 3;
   width: 100%;
   height: 100%;
+  position: absolute;
+}
+.card-slide {
+  position: relative;
+  z-index: 20;
+}
+.swipper {
+  width: 100%;
+  height: 100%;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 30;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+.card-slide {
+  position: relative;
+  z-index: 30;
+  width: 500px;
+  height: 250px;
+  right: 6rem;
+  top: 4rem;
+}
+.swiper-slide.img1 {
+  objec-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background-image: url("/src/assets/img/eleven.png");
+  border: 2px solid #000;
+}
+.swiper-slide.img2 {
+  objec-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background-image: url("/src/assets/img/twelve.png");
+  border: 2px solid #000;
+}
+.swiper-slide.img3 {
+  objec-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background-image: url("/src/assets/img/eight.png");
+  border: none;
+}
+.swiper-slide.img4 {
+  objec-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background-image: url("/src/assets/img/thirteen.jpg");
+  border: none;
+}
+.swiper-slide.img5 {
+  objec-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background-image: url("/src/assets/img/thirteen.jpg");
+  border: none;
 }
