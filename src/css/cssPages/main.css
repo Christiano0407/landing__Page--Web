@@ -55,6 +55,15 @@
   border: none;
   font-weight: 700;
   width: 150px;
+  cursor: pointer;
+}
+.main-btn:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid #333;
+}
+.main-btn:active {
+  transform: scale(0.9);
 }
 .main-shapes {
   grid-column: 2 / 3;
