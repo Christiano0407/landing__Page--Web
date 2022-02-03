@@ -12,7 +12,19 @@ let tween = gsap.from(
   },
   0.0
 );
+TweenMax.staggerFrom(
+  ".navigation__logo > div, span, label, input",
+  1,
+  {
+    y: "40",
+    opacity: 0,
+    ease: Power2.easeOut,
+    delay: 1.5,
+  },
+  0.2
+);
 
+// Aside One
 let tweenAs = gsap.from(
   ".aside",
   {
@@ -25,7 +37,26 @@ let tweenAs = gsap.from(
   0.0
 );
 
-// Swipper ===
+TweenMax.staggerFrom(
+  ".aside__text > span",
+  2,
+  {
+    x: "-20",
+    opacity: 0,
+    ease: Power2.easeInOut,
+    delay: 1,
+  },
+  0.2
+);
+
+TweenMax.staggerFrom(
+  ".aside__social > div, ul, li, a, i",
+  2,
+  { x: "-20", opacity: 0, ease: Power2.easeInOut, delay: 2 },
+  0.2
+);
+
+// Swipper  Carousel / Card ===
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 2,
   spaceBetween: 30,
@@ -34,8 +65,15 @@ const swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
-console.groupEnd();
+TweenMax.from(".card-slide", 3, {
+  delay: 2,
+  duration: 1.5,
+  opacity: 0,
+  y: 20,
+  ease: Expo.easeInOut,
+});
 
+// Aside Icons Social ==
 let aside = gsap.from(".as", {
   delay: 1.5,
   opacity: 0,
@@ -43,25 +81,39 @@ let aside = gsap.from(".as", {
   x: "-20",
   ease: "power2.out",
 });
-/* let img = gsap.from(".main__img", { */
-/*   delay: 1, */
-/*   opacity: 0, */
-/*   duration: 1.5, */
-/*   ease: "power2.out", */
-/* }); */
-/* gsap.to(".main__img", { */
-/*   scrollTrigger: ".main__img", */
-/*   trigger: ".main__img", */
-/*   pin: true, */
-/*   scrub: 1, */
-/*   start: "top top", */
-/*   endTrigger: "#otherID", */
-/*   end: "bottom 50%+=100px", */
-/* }); */
-gsap.to(".main__img", {
+
+// Image
+TweenMax.from(".main__img", 3, {
   duration: 1,
   delay: 1,
+  y: 40,
+  opacity: 0,
   ease: "power2.out",
-  scrollTrigger: ".main__img",
-  y: -50,
 });
+//Text-title
+TweenMax.from(".main-title", 3, {
+  y: "20",
+  opacity: 0,
+  ease: Expo.easeInOut,
+  delay: 0.4,
+});
+TweenMax.from(".main-text", 2, {
+  y: "-20",
+  opacity: 0,
+  ease: Expo.easeInOut,
+  delay: 1,
+});
+gsap.from(".main-btn", {
+  delay: 1.5,
+  opacity: 0,
+  duration: 1.5,
+});
+TweenMax.from(".main-shapes", 4, {
+  y: "40",
+  opacity: 0,
+  ease: "sine-out",
+  duration: 2.5,
+  delay: 0.5,
+});
+
+console.groupEnd();
