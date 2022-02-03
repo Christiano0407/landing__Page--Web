@@ -43,9 +43,25 @@ let aside = gsap.from(".as", {
   x: "-20",
   ease: "power2.out",
 });
-let img = gsap.from(".main__img", {
+/* let img = gsap.from(".main__img", { */
+/*   delay: 1, */
+/*   opacity: 0, */
+/*   duration: 1.5, */
+/*   ease: "power2.out", */
+/* }); */
+/* gsap.to(".main__img", { */
+/*   scrollTrigger: ".main__img", */
+/*   trigger: ".main__img", */
+/*   pin: true, */
+/*   scrub: 1, */
+/*   start: "top top", */
+/*   endTrigger: "#otherID", */
+/*   end: "bottom 50%+=100px", */
+/* }); */
+gsap.to(".main__img", {
+  duration: 1,
   delay: 1,
-  opacity: 0,
-  duration: 1.5,
   ease: "power2.out",
+  scrollTrigger: ".main__img",
+  y: -50,
 });
