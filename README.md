@@ -2,7 +2,43 @@
 
 Landing Page Web and Vanilla Javascript.
 
+## Inspiration Landing
+
+> Dribble Inspiration
+
+- [Dribble](https://dribbble.com/shots/17213005-Splaaashes)
+
+## Tools Javascript
+
+> All Tools Javascript (Frameworks)
+
+- [GSAP](https://greensock.com/)
+- [swiper](https://swiperjs.com/demos#slides-per-view)
+- [animeJs](https://animejs.com/documentation/)
+- [BarbaJs](https://barba.js.org/docs/getstarted/markup/)
+
+## Tool CDN
+
+> CDN
+
+- [CDNJs](https://cdnjs.com/)
+
+## Ilustration Tools
+
+> Ilustration
+
+- [OUCH](https://icons8.com/illustrations)
+
 # MIT License
+
+> License Web
+
+- [Choosealicense](https://choosealicense.com/)
+- [MIT-License](https://choosealicense.com/licenses/mit/)
+- [License Categories](https://www.youtube.com/watch?v=eWtjgfzpt6Y)
+- [License Wikipedia](https://es.wikipedia.org/wiki/Licencia_de_software)
+- [Copyright](https://es.wikipedia.org/wiki/Derecho_de_autor)
+- [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/)
 
 MIT License
 
