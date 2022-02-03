@@ -35,3 +35,17 @@ const swiper = new Swiper(".mySwiper", {
   },
 });
 console.groupEnd();
+
+let aside = gsap.from(".as", {
+  delay: 1.5,
+  opacity: 0,
+  duration: 1,
+  x: "-20",
+  ease: "power2.out",
+});
+let img = gsap.from(".main__img", {
+  delay: 1,
+  opacity: 0,
+  duration: 1.5,
+  ease: "power2.out",
+});
